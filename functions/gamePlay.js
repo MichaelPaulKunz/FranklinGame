@@ -29,8 +29,14 @@ function moveKite(gameObject) {
   }
 
   // move up
+  if (gameObject.yDirection === 'up') {
+    gameObject.kiteSprite.y -= (window.innerHeight / 273)
+  }
 
   // move down
+  if (gameObject.yDirection === 'down') {
+    gameObject.kiteSprite.y += (window.innerHeight / 273)
+  }
 
 }
 

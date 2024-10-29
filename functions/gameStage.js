@@ -80,6 +80,14 @@ function eventListeners(gameObject) {
     if(e.key === 'ArrowLeft') {
       gameObject.xDirection = 'left'
     }
+
+    if(e.key === 'ArrowUp') {
+      gameObject.yDirection = 'up'
+    }
+
+    if(e.key === 'ArrowDown') {
+      gameObject.yDirection = 'down'
+    }
   });
 
   document.addEventListener('keyup', function(e) {
