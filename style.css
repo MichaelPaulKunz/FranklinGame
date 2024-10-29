@@ -1,0 +1,28 @@
+body {
+  background-image: url("./images/bg1.jpeg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 90%;
+  height: 99vh;
+  background-color: black;
+}
+
+.start-game-button {
+  position: absolute;
+  top: 50%; /* Moves button to the middle vertically */
+  left: 50%; /* Moves button to the middle horizontally */
+  transform: translate(-50%, -50%); /* Centers the button */
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 80%;
+  border-color: black;
+  width: 15%;
+  height: 15%;
+  color: black;
+  text-shadow: 2px 2px 4px #918a8a;
+  font-size: 100%;
+}
+
+
+
